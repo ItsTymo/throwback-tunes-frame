@@ -105,9 +105,7 @@ function generateInitialFrameHtml(postUrl: string, imageUrl: string): string {
             <meta property="fc:frame:button:2" content="60s" />
             <meta property="fc:frame:button:3" content="70s" />
             <meta property="fc:frame:button:4" content="80s" />
-            <meta property="fc:frame:button:5" content="90s" />
-            <meta property="fc:frame:button:6" content="00s" />
-            <meta property="fc:frame:button:7" content="10s" />
+
         </head><body>
             <h1>Throwback Tunes Frame</h1>
             <p>Cast this URL on Farcaster!</p>
