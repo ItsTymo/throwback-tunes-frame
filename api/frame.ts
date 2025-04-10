@@ -32,9 +32,6 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
             else if (buttonIndex === 2) decadeKey = '60s';
             else if (buttonIndex === 3) decadeKey = '70s';
             else if (buttonIndex === 4) decadeKey = '80s';
-            else if (buttonIndex === 5) decadeKey = '90s';
-            else if (buttonIndex === 6) decadeKey = '00s';
-            else if (buttonIndex === 7) decadeKey = '10s';
 
             let song: Song | null = null;
             if (decadeKey && songsByDecade[decadeKey]) {
